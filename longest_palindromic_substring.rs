@@ -10,7 +10,7 @@ impl Solution {
                 a = i as i16;
                 b = i + j;
                 while 0 <= a && b < bytes.len() {
-                    if &bytes[a as usize] != &bytes[b] {
+                    if bytes[a as usize] != bytes[b] {
                         break;
                     }
                     if end - start < b - a as usize {
