@@ -6,6 +6,7 @@ impl Solution {
             return s;
         }
         let mut i = 0;
+        let mut j = 0;
         let round_trip_length = num_rows + num_rows - 2;
         let mut row_index = 0;
         let mut rows = Vec::new();
@@ -13,14 +14,10 @@ impl Solution {
             rows.push("".to_string());
         }
         while i < s.len() {
-            for j in 0..round_trip_length {
-                if i >= s.len() {
-                    break;
-                }
-                row_index = (j - cmp::max(0, j - (round_trip_length - j))) as usize;
-                rows[row_index].push_str(&s[i..i + 1]);
-                i += 1;
-            }
+            j = i as i32 % round_trip_length;
+            row_index = (j - cmp::max(0, j - (round_trip_length - j))) as usize;
+            rows[row_index].push_str(&s[i..i + 1]);
+            i += 1;
         }
         rows.join("")
     }
