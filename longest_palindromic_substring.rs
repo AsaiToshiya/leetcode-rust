@@ -22,6 +22,6 @@ impl Solution {
                 }
             }
         }
-        String::from_utf8((&bytes[start..end + 1]).to_vec()).unwrap()
+        s[start..end + 1].to_string()
     }
 }
