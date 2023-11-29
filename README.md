@@ -8,3 +8,4 @@
 | [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | [median_of_two_sorted_arrays.rs](median_of_two_sorted_arrays.rs) | 0 ミリ秒 |
 | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [longest_palindromic_substring.rs](longest_palindromic_substring.rs) | 5 ミリ秒 |
 | [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) | [zigzag_conversion.rs](zigzag_conversion.rs) | 4 ミリ秒 |
+| [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) | [reverse_integer.rs](reverse_integer.rs) | 0 ミリ秒 |
