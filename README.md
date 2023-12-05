@@ -9,3 +9,4 @@
 | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [longest_palindromic_substring.rs](longest_palindromic_substring.rs) | 5 ミリ秒 |
 | [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) | [zigzag_conversion.rs](zigzag_conversion.rs) | 4 ミリ秒 |
 | [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) | [reverse_integer.rs](reverse_integer.rs) | 0 ミリ秒 |
+| [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) | [string_to_integer_atoi.rs](string_to_integer_atoi.rs) | 0 ミリ秒 |
