@@ -1,6 +1,6 @@
 impl Solution {
     pub fn my_atoi(s: String) -> i32 {
-        let trim_str = s.trim().to_string();
+        let trim_str = s.trim();
         let chars: Vec<char> = trim_str.chars().collect();
         for i in 0..chars.len() {
             if let '+' | '-' | '0'..='9' = chars[i] {
@@ -12,7 +12,7 @@ impl Solution {
                         break;
                     }
                 }
-                let num_str = &trim_str[i..end + 1].to_string();
+                let num_str = &trim_str[i..end + 1];
                 if let Ok(n) = &num_str.parse::<i32>() {
                     return *n as i32;
                 }
