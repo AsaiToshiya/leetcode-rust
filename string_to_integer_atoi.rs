@@ -17,10 +17,7 @@ impl Solution {
                     if let Ok(n) = &num_str.parse::<i32>() {
                         return *n as i32;
                     }
-                    if num_str == "+" {
-                        return 0;
-                    }
-                    if num_str == "-" {
+                    if end - i <= 1 {
                         return 0;
                     }
                     if &s[i..i + 1] == "-" {
